@@ -31,4 +31,6 @@ git clone https://github.com/Srikanthlambani/INFOGAIN-MINI-PROJECT.git
 then we get a folder downloaded 
 open INFO-GAIN.exe
 it will result in 
-
+![Screenshot (268)](https://user-images.githubusercontent.com/108181236/200107089-4e9ed270-0643-40c4-ba9d-a94a08e6668d.png)
+![Screenshot (269)](https://user-images.githubusercontent.com/108181236/200107093-cdb5959f-adfa-418b-abf8-2f28149ce4e6.png)
+![Screenshot (270)](https://user-images.githubusercontent.com/108181236/200107095-b5936a69-36d1-455b-b468-101963e7c362.png)
