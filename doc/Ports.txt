@@ -1,0 +1,27 @@
+->What is a port?
+  -A port is a virtual point where network connections start and end. 
+   Ports are software-based and managed by a computer's operating system. 
+   Each port is associated with a specific process or service. 
+   Ports allow computers to easily differentiate between different kinds of traffic: 
+   emails go to a different port than webpages, for instance, even though both 
+   reach a computer over the same Internet connection.
+
+
+->What is a port number?
+  -Ports are standardized across all network-connected devices, 
+   with each port assigned a number. Most ports are reserved for certain protocols — 
+   for example, all Hypertext Transfer Protocol (HTTP) messages go to port 80. 
+   While IP addresses enable messages to go to and from specific devices, port numbers 
+   allow targeting of specific services or applications within those devices.
+
+->How do ports make network connections more efficient?
+  -Vastly different types of data flow to and from a computer over the same network 
+   connection. The use of ports helps computers understand what to do with the data they receive.
+
+->Why should we focus more on open ports.
+  -Open ports become dangerous when legitimate services are exploited through security vulnerabilities 
+   or malicious services are introduced to a system via malware or social engineering, 
+   cybercriminals can use these services in conjunction with open ports to gain unauthorized access to 
+   sensitive data.  
+  -Closing unused ports reduces your security risk by reducing the number of attack vectors your 
+   organization is exposed to.

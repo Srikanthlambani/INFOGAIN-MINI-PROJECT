@@ -1,0 +1,79 @@
+->What is Subdomain
+  -A subdomain is an additional part to your main domain name. 
+  -Subdomains are created to organize and navigate to different sections of your website. 
+  -You can create multiple subdomains or child domains on your main domain.
+  -A subdomain is an appendix to your main website domain, like subdomain.example.com. 
+  -It helps to organize website structure. Companies mostly use it for such goals:
+  -As testing environments before implementing changes to the main website. Like beta.example.com
+  -To deploy projects with a technology that differs from one in the main domain. 
+   For example, it could be a fan shop for a football team website. E-commerce engines usually differ 
+   from content websites, so developers need an isolated environment to set it up.
+  -To host a local email server like email1.example.com
+  -Use subdomain for mobile versions or location-specific versions of the website. Like m.facebook.com or uk.example.com
+  -To create a special project with a unique name to emphasize its importance. Like blackfriday.example.com
+
+->Use Cases of Subdomain
+  -The most common use-case of a subdomain is for creating a testing or staging version of a website. 
+   Often developers will test new plugins and updates on a subdomain staging site before publishing 
+   them live on the Internet.
+  -Another common use of a subdomain is to create an online eCommerce store. 
+   Often companies want a separate subdomain to handle transactions because eCommerce sites typically 
+   require a more complex set up.
+  -We have also seen companies use subdomains for their mobile websites (m.yoursite.com), 
+   location-specific sites (uk.yoursite.com), and creating sub-sections of the website.
+  -You can install WordPress on your subdomain, and it will work as a separate installation from your main website.
+   You can use a subdomain to serve a specific group of users on your site like ‘guest.yourwebsite.com’, 
+   ‘user.yourwebsite.com’, and more. This is how website builder platforms like WordPress.com, blogger.com, 
+   and others offer custom websites to users.
+  -Subdomains can be very useful in organizing your website content more efficiently. 
+   The right use of a subdomain does not affect your main website’s SEO. However, when in doubt, 
+   we recommend keeping everything on the same domain and avoid using a subdomain for public sites.
+
+
+->how finding subdomains can be used in business reconnaissance by your competitor:
+  -Find subdomains for testing and see what changes a company is going to make. 
+  -Competitors can use it to outstrip one or prepare anticipatory moves.
+  -List technologies a company uses. Knowing weak and strong sides rivals can use it to build a 
+   more competitive technological stack. That also really helps in industrial espionage.
+  -Find out about special projects before their launch and announcement. 
+   Again, to make anticipatory moves or spoil it.
+  -Hack email server to read internal correspondence and send letters to employees. 
+   For example, Rojan Rijal described how he was able to intercept emails for Uber.
+  -Get access to sensitive data and files which are situated on a subdomain.
+
+->What Hackers can do if he/she gets  control over Subdomains
+  -Deface a website page and hurt a company’s reputation
+  -Steal user data
+  -Create a “phishing” page on a credible subdomain
+  -Put a redirect to a malicious website
+  -Blackmail a company to get paid
+  -Steal the source code of a website
+  -Modify cookie of the main website
+   If subdomain.example.com has the authority to modify cookies on the main website, 
+   perpetrators can set up malicious cookies. This opens ways to steal user data, 
+   analyze their activity or impersonate user sessions.
+
+->How to Protect our subdomains
+  -Set up proper firewalls for all subdomains for internal use.
+  -Secure your subdomain name access credentials, 
+   update your password every 90 days, and log who has access to it.
+  -Thoroughly and constantly update a list of subdomains in use.
+  -Keep a log of all 3rd party services used and their subdomains. 
+   Here is a wonderful list of 62 third-party services that can be exposed to subdomain takeover.
+  -Instantly close subdomains you don’t use. The smaller the attack surface – the better. 
+   Don't forget to update DNS configurations for subdomains you need, but they currently are not in use.
+  -Establish a standard operating procedure (SOP) for the “life” of your subdomains, 
+   so your team will know when you close the subdomain. Start provisioning by claiming the virtual host; 
+   create DNS records last. Start deprovisioning by removing DNS records first.
+  -Thoroughly choose hosting vendors, study how they verify a person who is claiming a virtual host. 
+   Develop a standard vendor qualification process.
+  -Use uncommon names for subdomains. It makes brute-forcing hard – dictionaries don’t have words 
+   like aptoplasure12334fx.example.com.
+  -Use honeypots for active defense. It’s a method of active defense intelligence where you at purpose 
+   create hosts that are attractive to potential attackers but place non-critical machines in a network that 
+   are isolated from the company's production environment. If there is an attack, cybersecurity specialists 
+   can gather information about the attackers and use it to reinforce the defense. 
+  -Periodically run a checkup for your website on Spyse to see its security score, 
+   possible CVE, and what public information about your website structure and subdomains is available.
+  -Write strict guidelines on subdomain usage, share it with your team, and control the execution. 
+   It’s good to print these rules and hang them on the wall in the IT department.
